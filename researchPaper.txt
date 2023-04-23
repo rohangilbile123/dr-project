@@ -1,0 +1,39 @@
+Abstract— 
+Diabetic Retinopathy (DR) is human eye illness which occurs in individuals who have diabetics
+which harms their retina and in the long run, may lead visual deficiency.Diabetic Retinopathy
+is regarded as the leading cause of blindness for diabetic patients, especially the working-age population. 
+Early detection of Diabetic Retinopathy is crucial in order to sustain the patient’s vision
+effectively. The main issue involved with DR detection is that the manual diagnosis process is very time,
+money, and effort consuming and involves an ophthalmologist’s examination of eye retinal fundus images.
+The latter also proves to be more difficult, particularly in the early stages of the disease when disease features
+are less prominent in the images. Till now DR is being screened 
+manually by ophthalmologist which is a very time consuming procedure. And henceforth this task (project)
+focuses on analysis of different DR stages, which is done with Deep Learning (DL) and it is a subset of Artificial
+Intelligence (AI). We trained a CNN model on an enormous dataset including more than 5000 train images to
+automatically detect the DR stage. The Dataset which are using is classified into five DR stages, 
+which are 0, 1, 2, 3, and 4.
+
+
+
+Keywords— Diabetic Retinopathy (DR), Deep Learning, CNN Architecture, Dataset, Eye Blindness 
+
+
+
+Introduction: 
+Diabetes serves as the most prominent reason for blindness for people under the age of 50 years. 
+Diabetes Mellitus is a direct cause of Diabetic Retinopathy (DR) which is a complication of diabetes where glucose 
+blocks blood vessels that feed the eye and causes swelling and leaking of blood or fluids that can cause severe
+eye injury. The detrimental vision loss due to DR occurs primarily when there is retina central swelling.
+In recent projects and researches, AI models, and in AI specially “Deep Learning” gives the most accurate outputs in
+finding hidden layers in various AI tasks, particularly in the field of medical image analysis.
+Convolutional Neural Networks are specialized neural networks mainly used for image recognition and classification.
+In this paper, we propose a model that would carry out two kinds of classifications of fundus images.
+ First is the binary classification into normal and DR affected, and second is a 5 level classification
+into normal, mild DR, moderate DR, severe DR and proliferative DR.
+The clinicians are divided these DR into five classes
+which shows the stages of DR :
+x No DR (class 0)
+x Mild DR (class 1)
+x Moderate DR (class 2)
+x Sever DR (class 4)
+x Proliferative DR (class 5)

@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  color: red;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input[type="file"] {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: #007bff;
+}

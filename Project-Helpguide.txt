@@ -1,0 +1,3 @@
+Flask commands to use to start Server
+1. venv\Scripts\activate
+2. flask run
