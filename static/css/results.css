@@ -1,0 +1,50 @@
+body {
+    background: url("https://i.pinimg.com/originals/29/07/75/290775b3d639ba0fc77385d2b5bcb8f3.jpg") ;
+    background-size: cover;
+    font-family: sans-serif;
+  } 
+.container {
+    text-align: center;
+    color: violet;
+}
+.title {
+  margin-bottom: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}  
+.description {
+    margin-left: 20px;
+    margin-right: 40px;
+    color: beige;
+    font-size: 28px;
+    margin-top: 2rem;  
+}
+.treatment {
+    margin-left: 20px;
+    margin-right: 40px;
+    color: burlywood;
+    font-size: 28px;
+    margin-top: 2rem;
+}
+  h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: burlywood;
+  }
+  p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: blanchedalmond;
+  }
+  a {
+    color: goldenrod;
+  }
+span{
+    color: goldenrod;
+}

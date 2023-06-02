@@ -1,28 +1,43 @@
+body {
+  background: url("https://i.pinimg.com/originals/29/07/75/290775b3d639ba0fc77385d2b5bcb8f3.jpg") ;
+  background-size: cover;
+}
+
 .container {
-  margin: 0 auto;
-  max-width: 600px;
   text-align: center;
   color: red;
 }
 
-h1, h2 {
-  font-family: Arial, sans-serif;
-  font-weight: normal;
+.main-title {
+  margin-bottom: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
+.inp-image {
+  color: violet;
+  font-size: 3rem;
+}
+.sub-btn {
+  margin-right: 40px;
+}
 h1 {
-  font-size: 36px;
-  margin-bottom: 30px;
+ 
+  font-size: 4rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 4rem;
+  margin-top: 2rem;
   margin-top: 50px;
   margin-bottom: 20px;
 }
 
 label {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 input[type="file"] {
@@ -34,13 +49,23 @@ input[type="file"] {
 input[type="submit"] {
   font-size: 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  margin-right: 30px;
+  background-color: #1cd1a4;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 36px;
+  margin-top: 100px;
+  color: bisque;
+}
+span {
+  color: goldenrod;
+}
 a {
   color: #007bff;
 }

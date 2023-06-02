@@ -3,15 +3,32 @@
 <head>
 	<title>Diabetic Retinopathy Classification</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}"> 
+	<script>
+		function validateForm() {
+		  var x = document.getElementById("img_input").value;
+		  if (x == "") {
+			alert("Please select an image to upload.");
+			return false;
+		  }
+		}
+	  </script>
 </head>
 <body>
 	<div class="container">
-		<h1>Diabetic Retinopathy Classification</h1>
+		<div class="main-title">
+			<h1>Diabetic Retinopathy Classification System</h1>
+		</div>
+		
 		<form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
-			<label for="file">Choose an image:</label>
-			<input type="file" id="file" name="file"><br><br>
-			<input type="submit" value="Submit">
+			<div class="inp-image">
+				<label for="file">Choose an image:</label>
+				<input type="file" id="file" name="file">
+			</div>
+			<br><br>
+				<input type="submit" value="Submit">
 		</form>
+
+		<!--<p>Final Year Project by <span>Rohan Gilbile</span>, <span>Shreyta Singh</span>, <span>Arnav Botre</span> under the guidance of <span>Dr.Prabhakar Kota</span>.</p> -->
 	</div>
 </body>
 </html>
